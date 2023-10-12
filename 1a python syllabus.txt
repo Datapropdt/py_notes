@@ -1,0 +1,18 @@
+Syllabus
+1. Introduction to Python
+2. Variables,Datatypes
+3. Operators
+4. Decision Making
+5. Loops
+6. Numbers
+7. Strings
+8. Lists
+9. Tuples
+10. Functions
+11. Files
+12. Python Exceptions
+13. OOPS
+-----Advance Python------
+14. Multithreaded
+15. CGI Programming
+16. GUI Programming(Tkinter)

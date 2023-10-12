@@ -1,0 +1,160 @@
+Introduction to Python:
+It was created by Guido van Rossum during 1985- 1990.
+
+Python is a very popular general-purpose interpreted, interactive, object-oriented, and high-level programming language. 
+
+Python is dynamically-typed and garbage-collected programming language.
+
+Python source code is also available under the GNU General Public License (GPL).
+
+Why to Learn Python?
+Python is Open Source which means its available free of cost.
+Python is simple and so easy to learn
+Python is versatile and can be used to create many different things.
+Python has powerful development libraries include AI, ML etc.
+Python is much in demand and ensures high salary
+
+key advantages of learning Python:
+Python is Interpreted − Python is processed at runtime by the interpreter. You do not need to compile your program before executing it. This is similar to PERL and PHP.
+Python is Interactive − You can actually sit at a Python prompt and interact with the interpreter directly to write your programs.
+Python is Object-Oriented − Python supports Object-Oriented style or technique of programming that encapsulates code within objects.
+Python is a Beginner's Language − Python is a great language for the beginner-level programmers and supports the development of a wide range of applications from simple text processing to WWW browsers to games.
+
+Example Program: #1
+# This is my first Python program.
+# This will print 'Hello, World!' as the output
+
+print ("Hello, World!");
+
+Output: 
+
+------------------------------
+career options:
+
+Game developer
+Web designer
+Python developer
+Full-stack developer
+Machine learning engineer
+Data scientist
+Data analyst
+Data engineer
+DevOps engineer
+=Software engineer
+
+------------------------------
+characteristics of Python Programming −
+
+It supports functional and structured programming methods as well as OOP.
+It can be used as a scripting language or can be compiled to byte-code for building large applications.
+It provides very high-level dynamic data types and supports dynamic type checking.
+It supports automatic garbage collection.
+It can be easily integrated with C, C++, COM, ActiveX, CORBA, and Java.
+---------------------------------------------
+Interpreter:
+An Interpreter directly executes instructions written in a programming or scripting language without previously converting them to an object code or machine code.
+-----------------------------------
+Applications of Python
+
+Easy-to-learn − Python has few keywords, simple structure, and a clearly defined syntax. This allows the student to pick up the language quickly.
+Easy-to-read − Python code is more clearly defined and visible to the eyes.
+Easy-to-maintain − Python's source code is fairly easy-to-maintain.
+A broad standard library − Python's bulk of the library is very portable and cross-platform compatible on UNIX, Windows, and Macintosh.
+Interactive Mode − Python has support for an interactive mode which allows interactive testing and debugging of snippets of code.
+Portable − Python can run on a wide variety of hardware platforms and has the same interface on all platforms.
+Extendable − You can add low-level modules to the Python interpreter. These modules enable programmers to add to or customize their tools to be more efficient.
+Databases − Python provides interfaces to all major commercial databases.
+GUI Programming − Python supports GUI applications that can be created and ported to many system calls, libraries and windows systems, such as Windows MFC, Macintosh, and the X Window system of Unix.
+Scalable − Python provides a better structure and support for large programs than shell scripting.
+-----------------------------------------
+
+Python Identifiers:
+
+Python is a case sensitive programming language. Thus, Manpower and manpower are two different identifiers in Python.
+
+*Python does not allow punctuation characters such as @, $, and % within identifiers.
+
+*Python is a case sensitive programming language.
+
+* Class names start with an uppercase letter. All other identifiers start with a
+lowercase letter.
+
+* Starting an identifier with a single leading underscore indicates that the identifier is private.  
+
+*Starting an identifier with two leading underscores indicates a strong private
+identifier.
+
+*If the identifier also ends with two trailing underscores, the identifier is a languagedefined special name.
+-----------------------------------
+Python keywords:
+and	 exec	 Not
+as	 finally	 or
+assert	 for	 pass
+break 	from 	print
+class	 global	 raise
+continue if	 return
+def 	import 	try
+del	 in 	while
+elif 	is 	with
+else 	lambda 	yield
+except
+
+---------------------------------------------
+
+Multi-Line Statements:
+Python ends with a new line, so we use (\).
+
+syntax:
+total = item_one + \
+item_two + \
+item_three
+
+
+---------------------------------------------
+Quotation in Python:
+Python accepts single ('), double (") and triple (''' or """) quotes to denote string literals
+
+Example:
+word = 'word'
+sentence = "This is a sentence."
+paragraph = """This is a paragraph. It is
+made up of multiple lines and sentences."""
+
+---------------------------------------------
+Comments:
+A hash sign (#) is used in the beginning of a comment.
+Example:
+print ("Hello, Python!") #this is a comment
+
+---------------------------------------------
+Multiple Statement Groups as Suites:
+Groups of individual statements, which make a single code block are called suites.
+
+*Compound or complex statements, such as if, while, def, and class require a
+header line and a suite.
+
+syntax: 
+if expression :
+ suite
+elif expression :
+ suite
+else :
+ suite
+
+
+---------------------------------------------
+Command Line Arguments:
+The Python sys module provides access to any command-line arguments via
+the sys.argv. This serves two purposes-
+*sys.argv is the list of command-line arguments.
+* len(sys.argv) is the number of command-line arguments.
+
+
+Example: save as test.py
+#!/usr/bin/python3
+import sys
+print ('Number of arguments:', len(sys.argv), 'arguments.')
+print ('Argument List:', str(sys.argv)
+
+o/p: 
+i/p:  python test.py arg1 arg2 arg3

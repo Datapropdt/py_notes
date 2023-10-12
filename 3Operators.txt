@@ -1,0 +1,283 @@
+Operators:
+Operators are the constructs, which can manipulate the value of operands.
+
+types of operators-
+* Arithmetic Operators
+* Comparison (Relational) Operators
+* Assignment Operators
+* Logical Operators
+* Bitwise Operators
+* Membership Operators
+* Identity Operators
+
+
+Python Arithmetic Operators
+Python arithmetic operators are used to perform mathematical operations on numerical values. These operations are Addition, Subtraction, Multiplication, Division, Modulus, Expoents and Floor Division.
+
+Operator	Name		Example
++	Addition		10 + 20 = 30
+-	Subtraction	20 – 10 = 10
+*	Multiplication	10 * 20 = 200
+/	Division		20 / 10 = 2
+%	Modulus		22 % 10 = 2
+**	Exponent		4**2 = 16
+//	Floor Division	9//2 = 4
+
+
+
+ex: a = 21
+b = 10
+
+# Addition
+print ("a + b : ", a + b)
+
+# Subtraction
+print ("a - b : ", a - b)
+
+# Multiplication
+print ("a * b : ", a * b)
+
+# Division
+print ("a / b : ", a / b)
+
+# Modulus
+print ("a % b : ", a % b)
+
+# Exponent
+print ("a ** b : ", a ** b)
+
+# Floor Division
+print ("a // b : ", a // b)
+
+
+Comparison Operators
+Python comparison operators compare the values on either sides of them and decide the relation among them. They are also called relational operators. These operators are equal, not equal, greater than, less than, greater than or equal to and less than or equal to.
+
+Operator	Name			Example
+==	Equal			4 == 5 is not true.
+!=	Not Equal			4 != 5 is true.
+>	Greater Than		4 > 5 is not true.
+<	Less Than			4 < 5 is true.
+>=	Greater than or Equal to	4 >= 5 is not true.
+<=	Less than or Equal to	4 <= 5 is true.
+
+
+a = 4
+b = 5
+
+# Equal
+print ("a == b : ", a == b)
+
+# Not Equal
+print ("a != b : ", a != b)
+
+# Greater Than
+print ("a > b : ", a > b)
+
+# Less Than
+print ("a < b : ", a < b)
+
+# Greater Than or Equal to
+print ("a >= b : ", a >= b)
+
+# Less Than or Equal to
+print ("a <= b : ", a <= b)
+
+
+
+Python Assignment Operators
+Python assignment operators are used to assign values to variables. These operators include simple assignment operator, addition assign, subtraction assign, multiplication assign, division and assign operators etc.
+
+Operator	Name	Example
+=	Assignment Operator	a = 10
++=	Addition Assignment	a += 5 (Same as a = a + 5)
+-=	Subtraction Assignment	a -= 5 (Same as a = a - 5)
+*=	Multiplication Assignment	a *= 5 (Same as a = a * 5)
+/=	Division Assignment		a /= 5 (Same as a = a / 5)
+%=	Remainder Assignment	a %= 5 (Same as a = a % 5)
+**=	Exponent Assignment	a **= 2 (Same as a = a ** 2)
+//=	Floor Division Assignment	a //= 3 (Same as a = a // 3)
+
+c= a
+c+=a; # c = c+a
+
+
+# Assignment Operator
+a = 10
+
+# Addition Assignment
+a += 5 # a = a+5
+print ("a += 5 : ", a)
+
+# Subtraction Assignment
+a -= 5
+print ("a -= 5 : ", a)
+
+# Multiplication Assignment
+a *= 5
+print ("a *= 5 : ", a)
+
+# Division Assignment
+a /= 5
+print ("a /= 5 : ",a)
+
+# Remainder Assignment
+a %= 3
+print ("a %= 3 : ", a)
+
+# Exponent Assignment
+a **= 2
+print ("a **= 2 : ", a)
+
+# Floor Division Assignment
+a //= 3
+print ("a //= 3 : ", a)
+
+
+Python Bitwise Operators
+Bitwise operator works on bits and performs bit by bit operation. Assume if a = 60; and b = 13; Now in the binary format their values will be 0011 1100 and 0000 1101 respectively.
+a = 		0011 1100 +00
+a<<2 = 		1111 0000
+a>>2 =       +00 	0000 1111
+b = 0000 1101
+
+
+   	a 	0	0	0 
+	b	0	1	1
+		1	0	1
+		1	1	0
+--------------------------
+
+a&b = 12 (0000 1100)
+
+a|b = 61 (0011 1101)
+
+a^b = 49 (0011 0001)
+
+~a  = -61 (1100 0011)
+
+a << 2 = 240 (1111 0000)
+
+a>>2 = 15 (0000 1111)
+
+There are following Bitwise operators supported by Python language
+
+Operator	Name	Example
+&	Binary AND	Sets each bit to 1 if both bits are 1
+|	Binary OR	Sets each bit to 1 if one of two bits is 1
+^	Binary XOR	Sets each bit to 1 if only one of two bits is 1
+~	Binary Ones Complement	Inverts all the bits
+<<	Binary Left Shift	Shift left by pushing zeros in from the right and let the leftmost bits fall off
+>>	Binary Right Shift	Shift right by pushing copies of the leftmost bit in from the left, and let the rightmost bits fall off
+
+
+ex: 
+a = 60            # 60 = 0011 1100
+b = 13            # 13 = 0000 1101
+
+# Binary AND
+c = a & b        # 12 = 0000 1100
+print ("a & b : ", c)
+
+# Binary OR
+c = a | b        # 61 = 0011 1101
+print ("a | b : ", c)
+
+# Binary XOR
+c = a ^ b        # 49 = 0011 0001
+print ("a ^ b : ", c)
+
+# Binary Ones Complement
+c = ~a;           # -61 = 1100 0011
+print ("~a : ", c)
+
+# Binary Left Shift
+c = a << 2;       # 240 = 1111 0000
+print ("a << 2 : ", c)
+
+# Binary Right Shift
+c = a >> 2;       # 15 = 0000 1111
+print ("a >> 2 : ", c)
+
+
+
+Python Logical Operators
+There are following logical operators supported by Python language. Assume variable a holds 10 and variable b holds 20 then
+
+Operator	Description	Example
+and Logical AND	If both the operands are true then condition becomes true.	(a and b) is true.
+or Logical OR	If any of the two operands are non-zero then condition becomes true.	(a or b) is true.
+not Logical NOT	Used to reverse the logical state of its operand.	Not(a and b) is false.
+
+
+
+Python Membership Operators
+Python’s membership operators test for membership in a sequence, such as strings, lists, or tuples
+
+Operator	Description	Example
+in	Evaluates to true if it finds a variable in the specified sequence and false otherwise.	x in y, here in results in a 1 if x is a member of sequence y.
+not in	Evaluates to true if it does not finds a variable in the specified sequence and false otherwise.	x not in y, here not in results in a 1 if x is not a member of sequence y.
+
+
+#!/usr/bin/python
+
+a = 10
+b = 20
+list = [1, 2, 3, 4, 5 ];
+
+if ( a in list ):
+   print ("Line 1 - a is available in the given list")
+else:
+   print ("Line 1 - a is not available in the given list")
+
+if ( b not in list ):
+   print ("Line 2 - b is not available in the given list")
+else:
+   print ("Line 2 - b is available in the given list")
+
+ex:
+a = 2
+if ( a in list ):
+   print "Line 3 - a is available in the given list"
+else:
+   print "Line 3 - a is not available in the given list"
+
+
+identity operators:
+
+It is used to compare the objects, not if they are equal. If they are actually same the object  with the same memory location
+
+
+Operator		Description	Example
+is  	prints TRUE if both variables are the same objects.   x is y
+
+is not	prints TRUE if both variables are the not same objects.			x is not y
+
+
+example: " is "
+
+x=["apple", "mango"]
+y=["apple", "mango"]
+
+z= x
+w=y
+
+print(x is z)
+
+print(y is w)
+
+print(x == y)
+
+example: " is not"
+
+x=["apple", "mango"]
+y=["apple", "mango"]
+
+z= x
+
+print(x is not z)
+
+print(y is not z)
+
+print(x != y)
+
